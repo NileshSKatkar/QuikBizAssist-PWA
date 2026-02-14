@@ -1,0 +1,17 @@
+{
+  "name": "quikbizassist-pwa",
+  "version": "1.0.0",
+  "description": "QuikBizAssist PWA - Business card scanning, OCR, and contact management",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx serve .",
+    "build": "echo 'No build needed for static PWA'",
+    "dev": "npx serve . --cors"
+  },
+  "devDependencies": {
+    "serve": "^14.2.0"
+  },
+  "keywords": ["pwa", "business-cards", "ocr", "tesseract"],
+  "author": "QuikBizAssist",
+  "license": "MIT"
+}
